@@ -11,7 +11,8 @@ public class SearchBinary {
         int left = 0;
         int right = arr.length - 1;
         while (left <= right) {
-            int mid = (left + right) / 2;
+            // int mid = (left + right) / 2;
+            int mid = (left + right) >>> 1;
             if (arr[mid] == target) {
                 return mid;
             }else if(arr[mid] > target){
