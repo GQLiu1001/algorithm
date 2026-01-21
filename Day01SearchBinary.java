@@ -1,4 +1,7 @@
-public class SearchBinary {
+public class Day01SearchBinary {
+    // 1. 有序数组 找某个数
+    // 2. 有序数组 找 >= 某个数 最左侧的位置
+    // 3. 局部最小值问题
     public static void main(String[] args) {
         // 有序数组 查找 target -> 二分
         int[] arr = { 3, 5, 56, 57, 89, 99, 101, 333, 939, 1993, 20003 };
